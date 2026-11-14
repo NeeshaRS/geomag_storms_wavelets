@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the archived release on Zenodo."
+title: "geomag_storms_wavelets: code for 'Equatorward Expansion of Wavelet Power During Severe Geomagnetic Storms'"
+type: software
+authors:
+  - family-names: Schnepf
+    given-names: Neesha R.
+    affiliation: "School of Physics, Chemistry and Earth Sciences, Adelaide University"
+    orcid: "https://orcid.org/0000-0003-1489-7958"
+version: v2026.0
+date-released: "2026-11-15"   # TODO: set to the actual release date
+license: MIT
+repository-code: "https://github.com/NeeshaRS/geomag_storms_wavelets"
+keywords:
+  - geomagnetic storms
+  - wavelet analysis
+  - magnetometer
+  - Dst

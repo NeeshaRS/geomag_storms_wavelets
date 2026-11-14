@@ -1,0 +1,18 @@
+# Machine-specific paths (copy config/paths.example.json -> config/paths.json)
+config/paths.json
+
+# Outputs
+Figures/
+*.png
+*.mp4
+*.mat
+
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.virtual_documents/
+
+# MATLAB / OS
+*.asv
+.DS_Store

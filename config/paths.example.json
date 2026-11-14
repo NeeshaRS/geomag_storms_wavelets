@@ -1,0 +1,8 @@
+{
+  "data_root": "/path/to/Earth_Data",
+  "processed_data_root": "/path/to/local/Earth_Data",
+  "dst_index_dir": "Geomag_indices/Dst_index",
+  "high_frequency_dir": "Geomag_Observatories/High_frequency_data",
+  "figure_root_paper": "/path/to/paper/Figures",
+  "figure_root_scratch": "Figures"
+}

@@ -1,0 +1,250 @@
+[
+  {
+    "id": "1989-03-13",
+    "description": "1989 storm (IMAGE/DTU/OTT; CARISMA dropped)",
+    "kind": "storm",
+    "networks": [
+      "IMAGE",
+      "DTU",
+      "OTT"
+    ],
+    "united_data_fname": "198903_united_data.mat",
+    "figure_subdir": "1989-03-13_storm",
+    "dst_window": {
+      "start": "1989-03-11T00:00:00",
+      "end": "1989-03-17T23:59:59"
+    },
+    "hpf_max_period_s": 86400,
+    "wavelet": {
+      "min_period_s": 1,
+      "max_period_s": 3600,
+      "peak_height_threshold": 50000,
+      "scale_avg_power_ylim": [
+        0,
+        250000
+      ],
+      "h_timeseries_ylim": [
+        -3000,
+        3000
+      ]
+    },
+    "station_order": [
+      "GDH",
+      "ATU",
+      "SKT",
+      "GHB",
+      "FHB",
+      "SOR",
+      "ALT",
+      "KEV",
+      "KIL",
+      "KAU",
+      "NAQ",
+      "MUO",
+      "PEL",
+      "OTT"
+    ],
+    "max_gap_minutes": 30,
+    "exclude_sites": [
+      "STF"
+    ],
+    "station_start_overrides": null,
+    "station_end_overrides": {
+      "KAU": "1989-03-17T19:55:40"
+    },
+    "ingestion": {
+      "start": "1989-03-11T00:00:00",
+      "end": "1989-03-17T23:59:59",
+      "carisma": null,
+      "image_fname": "image_1989_03_08-18.txt",
+      "greenland_processed_csv": null,
+      "greenland_raw": {
+        "subdir": "Greenland/1989",
+        "cache_fname": "Greenland_1989_03.mat",
+        "format": "cdf"
+      },
+      "ott": {
+        "subdir": "Ottawa",
+        "fname": "19890311-16_OTT.mat"
+      },
+      "geo_csv": "198903_event_sites_geo_info_with_cdm.csv"
+    }
+  },
+  {
+    "id": "2003-10-29",
+    "description": "2003 storm (CARISMA/IMAGE/DTU)",
+    "kind": "storm",
+    "networks": [
+      "CARISMA",
+      "IMAGE",
+      "DTU"
+    ],
+    "united_data_fname": "200310_united_data.mat",
+    "figure_subdir": "2003-10-29_storm",
+    "dst_window": {
+      "start": "2003-10-29T00:00:00",
+      "end": "2003-11-03T00:00:00"
+    },
+    "hpf_max_period_s": 86400,
+    "wavelet": {
+      "min_period_s": 1,
+      "max_period_s": 3600,
+      "peak_height_threshold": 50000,
+      "scale_avg_power_ylim": null,
+      "h_timeseries_ylim": [
+        -2800,
+        4600
+      ]
+    },
+    "station_order": [
+      "THL",
+      "SVS",
+      "KUV",
+      "UPN",
+      "UMQ",
+      "GDH",
+      "NAL",
+      "LYR",
+      "HOR",
+      "ATU",
+      "HOP",
+      "STF",
+      "SKT",
+      "BJN",
+      "GHB",
+      "FHB",
+      "SOR",
+      "TRO",
+      "AND",
+      "KEV",
+      "MAS",
+      "KIL",
+      "NAQ",
+      "LEK",
+      "ABK",
+      "IVA",
+      "MUO",
+      "KIR",
+      "LOZ",
+      "SOD",
+      "PEL",
+      "RVK",
+      "OUJ",
+      "DOB",
+      "HAN",
+      "NUR",
+      "UPS",
+      "TAR"
+    ],
+    "max_gap_minutes": 30,
+    "exclude_sites": [
+      "RANK",
+      "AMK",
+      "FCHU"
+    ],
+    "station_start_overrides": null,
+    "station_end_overrides": null,
+    "ingestion": {
+      "start": "2003-10-24T00:00:00",
+      "end": "2003-11-01T23:59:59",
+      "carisma": {
+        "subdir": "CARISMA/2003-10-24_to_2003-11-01_fgm_all_data",
+        "ftype": "mag",
+        "cache_fname": "Carisma_2003_10-11.mat",
+        "end_override": null
+      },
+      "image_fname": "image_2003_10_24-11_03.txt",
+      "greenland_processed_csv": null,
+      "greenland_raw": {
+        "subdir": "Greenland/2003",
+        "cache_fname": "Greenland_2003.mat",
+        "format": "sec"
+      },
+      "ott": null,
+      "geo_csv": "200310_event_sites_geo_info_with_cdm.csv"
+    }
+  },
+  {
+    "id": "2008-11-17",
+    "description": "2008 quiet interval (baseline, IMAGE only)",
+    "kind": "quiet_baseline",
+    "networks": [
+      "IMAGE"
+    ],
+    "united_data_fname": null,
+    "figure_subdir": "2008-11-17_quiet",
+    "dst_window": null,
+    "hpf_max_period_s": 21600,
+    "wavelet": {
+      "min_period_s": 60,
+      "max_period_s": 3600,
+      "peak_height_threshold": null,
+      "scale_avg_power_ylim": null,
+      "h_timeseries_ylim": null
+    },
+    "station_order": null,
+    "max_gap_minutes": null,
+    "exclude_sites": [],
+    "station_start_overrides": null,
+    "station_end_overrides": null,
+    "ingestion": null
+  },
+  {
+    "id": "2024-05-11",
+    "description": "2024 storm (CARISMA/IMAGE/DTU)",
+    "kind": "storm",
+    "networks": [
+      "CARISMA",
+      "IMAGE",
+      "DTU"
+    ],
+    "united_data_fname": "202405_united_data.mat",
+    "figure_subdir": "2024-05-11_storm",
+    "dst_window": {
+      "start": "2024-05-06T00:00:00",
+      "end": "2024-05-15T23:59:59"
+    },
+    "hpf_max_period_s": 86400,
+    "wavelet": {
+      "min_period_s": 1,
+      "max_period_s": 3600,
+      "peak_height_threshold": 50000,
+      "scale_avg_power_ylim": null,
+      "h_timeseries_ylim": [
+        -3000,
+        3000
+      ]
+    },
+    "station_order": null,
+    "max_gap_minutes": 30,
+    "exclude_sites": [
+      "NORM",
+      "WEYB",
+      "MSTK"
+    ],
+    "station_start_overrides": {
+      "PEL": "2024-05-08T06:03:20",
+      "SVS": "2024-05-08T07:42:01"
+    },
+    "station_end_overrides": null,
+    "ingestion": {
+      "start": "2024-05-06T00:00:00",
+      "end": "2024-05-16T23:59:59",
+      "carisma": {
+        "subdir": "CARISMA/2024-05-06_to_2024-05-15_fgm_all_data",
+        "ftype": "F01",
+        "cache_fname": "Carisma_2024_05_06-16.mat",
+        "end_override": null
+      },
+      "image_fname": "image_2024_05_06-16.txt",
+      "greenland_processed_csv": null,
+      "greenland_raw": {
+        "subdir": "Greenland/2024/1sec",
+        "cache_fname": "Greenland_2024_05.mat",
+        "format": "sec"
+      },
+      "ott": null,
+      "geo_csv": "202405_event_sites_geo_info_with_cdm.csv"
+    }
+  }
+]

@@ -1,0 +1,7 @@
+# Tested with Python 3.12
+numpy==2.2.6
+pandas==2.2.3
+scipy==1.13.1
+matplotlib==3.8.4
+pycwt==0.5.0b0
+ppigrf==2.1.0

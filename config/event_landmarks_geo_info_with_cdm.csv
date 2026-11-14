@@ -1,0 +1,8 @@
+event_id,name,lat,lon,failure_time_utc,mark_on_heatmap,failure_desc,source,epoch,cdm_lat,cdm_lon
+1989-03-13,Chibougamau,49.9,-74.4,1989-03-13 07:44:17,1,Tripping of compensator CLC 12 (02:44:17 EST); start of Hydro-Québec blackout,"Bolduc et al. 2002, Table 1",1989.19,-60.76437054604325,4.367818013250741
+2003-10-29,Southern Sweden power station (unlocated),,,2003-10-29 06:11:42,1,220 kV line from a power station disconnected; 140 MW generation lost (first reported failure; no star),"Pulkkinen et al. 2005, Table 2",2003.82,,
+2003-10-29,Hemsjö,56.3,14.7,2003-10-29 06:46:04,0,400 kV Hemsjö–Karlshamn line disconnected; 300 MW HVDC import from Poland interrupted,"Pulkkinen et al. 2005, Table 2",2003.82,-55.557274726041584,-101.72584715078231
+2003-10-29,Karlshamn,56.2,14.9,2003-10-29 06:46:04,0,400 kV Hemsjö–Karlshamn line disconnected; 300 MW HVDC import from Poland interrupted,"Pulkkinen et al. 2005, Table 2",2003.82,-55.42736125432455,-101.85638413280655
+2003-10-29,Malmö,55.605,13.0038,2003-10-30 20:07:15,1,"130 kV line trip in Malmö; outage for 50,000 customers (20-50 min)","Pulkkinen et al. 2005, Table 2",2003.82,-55.19532462067257,-99.75506985784914
+2024-05-11,Hemsjö,56.3,14.7,2024-05-10 22:29:00,1,Hemsjö–Karlshamn line failure (00:29 LT),Wallner et al. 2026,2024.36,-55.60133662119008,-101.14383825244724
+2024-05-11,Karlshamn,56.2,14.9,2024-05-10 22:29:00,1,Hemsjö–Karlshamn line failure (00:29 LT),Wallner et al. 2026,2024.36,-55.47394673744988,-101.28206656039833
