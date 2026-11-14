@@ -8,7 +8,7 @@ authors:
     affiliation: "School of Physics, Chemistry and Earth Sciences, Adelaide University"
     orcid: "https://orcid.org/0000-0003-1489-7958"
 version: v2026.0
-date-released: "2026-11-15"   # TODO: set to the actual release date
+date-released: "2026-11-15"
 license: MIT
 repository-code: "https://github.com/NeeshaRS/geomag_storms_wavelets"
 keywords:
